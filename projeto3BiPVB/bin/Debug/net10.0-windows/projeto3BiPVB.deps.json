@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "projeto3BiPVB/1.0.0": {
+        "runtime": {
+          "projeto3BiPVB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projeto3BiPVB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

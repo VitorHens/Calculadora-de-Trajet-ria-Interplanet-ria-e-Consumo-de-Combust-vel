@@ -1,0 +1,16 @@
+﻿<Window x:Class="projeto3BiPVB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projeto3BiPVB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<TextBox x:Name="dados" HorizontalAlignment="Left" Margin="153,22,0,0" TextWrapping="Wrap" Text="Digite a distância do corpo de origem:&#xD;&#xA;Digite a distância do corpo de destino:&#xD;&#xA;Massa da espaçonave:&#xD;&#xA;Impulso específico do motor: " VerticalAlignment="Top" Width="385" Height="94" AcceptsReturn="True" TextChanged="dados_TextChanged"/>
+		<Button x:Name="calculo" Content="Calcular Trajetória" HorizontalAlignment="Left" Height="37" Margin="195,150,0,0" VerticalAlignment="Top" Width="102" Click="calculo_Click"/>
+		<Button x:Name="limpar" Content="Limpar Campos" HorizontalAlignment="Left" Height="37" Margin="436,150,0,0" VerticalAlignment="Top" Width="102" Click="limpar_Click"/>
+		<Label x:Name="resul" Content="Resultado:" HorizontalAlignment="Left" Height="78" Margin="182,250,0,0" VerticalAlignment="Top" Width="356"/>
+
+	</Grid>
+</Window>
