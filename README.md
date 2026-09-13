@@ -1,1 +1,2 @@
-![Fluxo completp.drawio (1).pdf](https://github.com/user-attachments/files/32162381/Fluxo.completp.drawio.1.pdf)
+<img width="357" height="2345" alt="3bimestre drawio" src="https://github.com/user-attachments/assets/0ff3f71e-b677-42fe-ba04-6b216419f362" />
+
