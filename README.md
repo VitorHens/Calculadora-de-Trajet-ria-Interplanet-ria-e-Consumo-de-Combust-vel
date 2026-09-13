@@ -1,33 +1,78 @@
-# Calculadora de Trajetória Interplanetária e Consumo de Combustível
+# 🚀 Calculadora de Trajetória Interplanetária e Consumo de Combustível
 
-Este projeto foi desenvolvido como avaliação prática do **3º Bimestre** na disciplina de **Programação Visual Básica**. O desafio consistiu em criar uma interface desktop utilizando **WPF (Windows Presentation Foundation)** para a agência espacial fictícia *AeroSpaceX*.
+Aplicação desktop desenvolvida em **C# com WPF** para simular cálculos básicos de uma viagem interplanetária utilizando a **Transferência de Hohmann**.
 
-O sistema é responsável por calcular o delta-v ($\Delta v$), a duração da viagem e a estimativa de consumo de combustível para missões interplanetárias utilizando a manobra de **Transferência de Hohmann**.
+O sistema recebe dados da órbita de origem e destino, massa da espaçonave e impulso específico do motor. A partir dessas informações, calcula o **tempo estimado da transferência**, o **Delta-v total** e uma **estimativa de combustível necessário**.
 
-## O Desafio
-Simular os cálculos necessários para uma viagem espacial entre planetas, exigindo a manipulação precisa de dados de entrada e a aplicação de fórmulas físicas/matemáticas básicas para o planejamento de trajetórias.
+O projeto foi desenvolvido como atividade da disciplina de **Programação Visual Básica** e utiliza **.NET 10 para Windows**.
 
-##  Restrições e Requisitos Técnicos
-Para atender aos critérios estritos da disciplina, o projeto foi construído limitando-se estritamente ao material de aula ministrado:
-* **Componentes de Interface Permitidos:** Apenas Caixas de Texto (com configuração multilinha para entradas), Botões de Comando e Labels (para saídas e identificação).
-* **Lógica do Sistema:** Focada exclusivamente em manipulação de *strings*, tratamento de datas e operações numéricas.
-* **Componentes Proibidos:** Nenhum outro elemento visual ou biblioteca externa fora do escopo da disciplina foi utilizado.
+## 🚀 Funcionalidades
 
-##  Funcionalidades
-* Entrada de dados dos planetas de origem e destino.
-* Cálculo do **Delta-v ($\Delta v$)** necessário para a manobra.
-* Estimativa do **tempo total de viagem** (duração).
-* Cálculo do **consumo de combustível** projetado para a missão.
+- Entrada da distância orbital do corpo de origem
+- Entrada da distância orbital do corpo de destino
+- Entrada da massa da espaçonave
+- Entrada do impulso específico do motor
+- Cálculo do semieixo maior da órbita de transferência
+- Cálculo do tempo estimado de viagem
+- Cálculo do Delta-v da manobra
+- Estimativa da massa de combustível
+- Exibição do tempo em dias e meses
+- Exibição do combustível em quilogramas e toneladas
+- Botão para limpar os dados da interface
 
-##  Tecnologias Utilizadas
-* **Linguagem:** C# / VB.NET (ajuste conforme a linguagem que você usou)
-* **Interface:** WPF (Windows Presentation Foundation) .NET
+## 🧮 Cálculos utilizados
 
+O projeto utiliza a constante gravitacional do Sol e aplica relações matemáticas da **Transferência de Hohmann** para determinar as velocidades necessárias na saída e chegada da órbita de transferência.
 
+A estimativa de combustível é feita a partir do Delta-v calculado, da massa da nave, da gravidade terrestre e do impulso específico informado pelo usuário.
 
-fluxograma
+> Este é um projeto educacional voltado à prática de programação e aplicação de fórmulas matemáticas em uma interface gráfica.
 
+## 🛠️ Tecnologias
 
+- **C#**
+- **WPF (Windows Presentation Foundation)**
+- **XAML**
+- **.NET 10**
+- **Visual Studio**
 
-<img width="357" height="2345" alt="3bimestre drawio" src="https://github.com/user-attachments/assets/0ff3f71e-b677-42fe-ba04-6b216419f362" />
+## ▶️ Como executar
 
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/VitorHens/Calculadora-de-Trajet-ria-Interplanet-ria-e-Consumo-de-Combust-vel.git
+```
+
+2. Abra `projeto3BiPVB.slnx` no **Visual Studio**.
+3. Confirme que o SDK do **.NET 10** está instalado.
+4. Compile e execute o projeto.
+5. Informe os quatro valores solicitados, um por linha, na seguinte ordem:
+
+```text
+Distância do corpo de origem
+Distância do corpo de destino
+Massa da espaçonave
+Impulso específico do motor
+```
+
+6. Clique no botão de cálculo para visualizar os resultados.
+
+## 🧠 Conceitos praticados
+
+- Programação em C#
+- Desenvolvimento de interfaces WPF
+- Eventos de botões
+- Estruturas condicionais e de repetição
+- Manipulação de strings e valores numéricos
+- Métodos da classe `Math`
+- Formatação de números
+- Aplicação de fórmulas físicas e matemáticas
+
+## 📐 Fluxograma
+
+<img width="357" height="2345" alt="Fluxograma do projeto" src="https://github.com/user-attachments/assets/0ff3f71e-b677-42fe-ba04-6b216419f362" />
+
+---
+
+Desenvolvido por **Vitor Hens**.
