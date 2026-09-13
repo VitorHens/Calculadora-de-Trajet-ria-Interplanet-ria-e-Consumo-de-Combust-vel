@@ -41,7 +41,7 @@ A estimativa de combustível é feita a partir do Delta-v calculado, da massa da
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/VitorHens/Calculadora-de-Trajet-ria-Interplanet-ria-e-Consumo-de-Combust-vel.git
+git clone https://github.com/VitorHens/calculadora-trajetoria-interplanetaria.git
 ```
 
 2. Abra `projeto3BiPVB.slnx` no **Visual Studio**.
